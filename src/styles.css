@@ -18,87 +18,84 @@
 }
 body {
   box-sizing: border-box;
-   background-color: rgb(49, 5, 49); 
-  
+  background-color: rgb(49, 5, 49);
+
   margin: 0;
   padding: 0;
 }
-.ground{
-          width: 100vw,
-          height: 100vh,
-          display: flex,
-          alignItems: center,
-          justifyContent: center,
-          color: white,
-
+.ground {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
-.buttons{
+.buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 220px;px;
+  gap: 220px;
   font-size: large;
   font-weight: 800;
-  background-color: "transparent";
-   border: "none";
-  color: "white"
+  background-color: transparent;
+  border: none;
+  color: white;
 }
-.qz{
-  color:black;
+.qz {
+  color: black;
 
   border-radius: 30px;
-  padding:20px;
-  margin:10px;
+  padding: 20px;
+  margin: 10px;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 20px;
 }
-.button1{
+.button1 {
   height: 150px;
-  width:150px;
+  width: 150px;
   background-color: transparent;
   border: 20px solid rgb(234, 234, 21);
-  color:rgb(234, 234, 21) ;
+  color: rgb(234, 234, 21);
   border-radius: 20px;
   font-size: xx-large;
   font-weight: 300;
-  
- 
 }
-.button2{
+.button2 {
   height: 150px;
-  width:150px;
-  background-color:transparent;
+  width: 150px;
+  background-color: transparent;
   border: 20px solid blue;
   color: blue;
   border-radius: 20px;
   font-size: xx-large;
   font-weight: 300;
 }
-.button3{
+.button3 {
   height: 150px;
-  width:150px;
-  background-color:transparent;
+  width: 150px;
+  background-color: transparent;
   border: 20px solid red;
   color: red;
   border-radius: 20px;
   font-size: xx-large;
   font-weight: 300;
 }
-.button4{
+.button4 {
   height: 150px;
   width: 150px;
-  background-color:transparent;
+  background-color: transparent;
   border: 20px solid rgba(221, 146, 6, 0.854);
   color: rgba(221, 146, 6, 0.854);
   border-radius: 20px;
   font-size: xx-large;
   font-weight: 300;
 }
-.quizappear{
+.quizappear {
   width: 100vw;
   height: 100vh;
-  
+
   position: relative;
   /* background: transparent; */
   color: white;
@@ -108,62 +105,51 @@ body {
   align-items: center;
 
   background-image: url("https://wallpapershigh.com/wp-content/uploads/sports-cricket-1-2.webp");
-
 }
 
-.full{
+.full {
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-Items: center;
-  justify-Content: center;
+  align-items: center;
+  justify-content: center;
   color: white;
-  border:10px solid orange;
+  border: 10px solid orange;
 }
-.questions{
-
+.questions {
   display: flex;
-  align-Items: center;
-  justify-Content: center;
+  align-items: center;
+  justify-content: center;
   color: white;
   text-align: center;
-  border:5px solid white;
+  border: 5px solid white;
   border-radius: 20px;
-  padding:10px;
-  font-size:x-large;
+  padding: 10px;
+  font-size: x-large;
   font-weight: 300;
-  background-color:black;
-
-       
-          
-  
+  background-color: black;
 }
-.foot{
-  margin-bottom:0px;
-  font-size:large;
-  font-weight:300px;
-  border:10px solid white !important;
- 
-  
+.foot {
+  margin-bottom: 0px;
+  font-size: large;
+  font-weight: 300px;
+  border: 10px solid white !important;
 }
 
-body{
+body {
   box-sizing: border-box;
 }
-.buttonchoice{
+.buttonchoice {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding:30px;
-  
-  
-  
+  padding: 30px;
 }
 .bb {
   padding: 1em 2em;
   border: none;
   color: white;
-  
+
   border-radius: 1000px;
   position: relative;
   display: flex;
@@ -171,12 +157,12 @@ body{
   align-items: center;
   z-index: 1;
   overflow: hidden;
-  cursor:pointer;
+  cursor: pointer;
   background: transparent;
 }
 
 .bb::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -10px;
   left: -10px;
@@ -191,12 +177,11 @@ body{
   transform: scale(1.05); /* Slight zoom for glow */
 }
 
-
 /* button doesnot showing border colour in gradient */
-  
+
 .bb:hover {
   transform: scale(1.03);
-   /* box-shadow: 0 0 12px rgba(0, 140, 255, 0.4);  */
+  /* box-shadow: 0 0 12px rgba(0, 140, 255, 0.4);  */
 }
 .fi {
   position: fixed;
@@ -206,7 +191,7 @@ body{
   height: 150px;
   width: 300px;
 
-  background-color:transparent;
+  background-color: transparent;
   color: white;
   text-align: center;
   /* border: 5px solid white; */
@@ -226,27 +211,26 @@ body{
   background-repeat: no-repeat;
   transition: background 0.8s ease-in-out;
 }
-.tq{
-  position:fixed;
-  bottom:0px;
-  disply:flex;
-  justify-content:center;
-  align-items:center;
+.tq {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: x-large;
 }
 /* .hidden {
   display: none !important;
 } */
-.play-again-btn{
+.play-again-btn {
   position: fixed; /* or absolute if inside a relative container */
   bottom: 20px;
   right: 20px;
-  
 
   height: 200px;
   width: 200px;
 
-  background-color:transparent;
+  background-color: transparent;
   color: white;
   /* text-align: center; */
   /* border: 5px solid white; */
@@ -256,15 +240,14 @@ body{
   font-weight: 300;
 
   margin: 0; /* Remove unexpected margins */
-
 }
 /* .button1choice.correct-option {
   background-color: green!important;
   color: white;
 } */
- .correct-option::after {
+.correct-option::after {
   content: " 😄";
   display: inline-block;
   /* position: relative; */
   top: 2px;
-} 
+}
